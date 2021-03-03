@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    min-height: 50px;
+    background-color: #7196a5;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+/* Кнопка корзины */
+.btn-cart {
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn-cart:hover {
+    color: #fff;
+    background: #afafaf;
+    cursor: pointer;
+}
+
+.btn-cart:active {
+    color: #ffffff;
+    background: #afafaf;
+    outline: none;
+}
+
+/* Товары */
+.goods {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.goods-item {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    width: 253px;
+    height: 150px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    overflow: hidden;
+    border-bottom: 5px solid #7196a5;
+    margin: 0 32px;
+}
+
+.goods-item h3 {
+    color: #afafaf;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.goods-item p {
+    color: #afafaf;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    float: left;
+    padding-bottom: 10px;
+}
+
+/* Кнопка покупки */
+.btn-buy {
+    width: 74px;
+    height: 34px;
+    background-color: #7196a5;
+    border-radius: 7px;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-buy:hover {
+    color: #fff;
+    background: #afafaf;
+    cursor: pointer;
+}
+
+.btn-buy:active {
+    color: #ffffff;
+    background: #afafaf;
+    outline: none;
+}
