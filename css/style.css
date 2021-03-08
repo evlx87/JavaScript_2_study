@@ -61,12 +61,12 @@ header {
     flex-direction: column;
     align-items: center;
     width: 253px;
-    height: 150px;
+    /* height: 150px; */
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
     overflow: hidden;
     border-bottom: 5px solid #7196a5;
-    margin: 0 32px;
+    margin: 0 33px 32px;
 }
 
 .goods-item h3 {
@@ -88,6 +88,9 @@ header {
     padding-bottom: 10px;
 }
 
+.goods-item img {
+    margin-top: 25px;
+}
 /* Кнопка покупки */
 .btn-buy {
     width: 74px;
