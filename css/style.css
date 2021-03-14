@@ -23,6 +23,13 @@ header {
     max-width: 1280px;
 }
 
+h2 {
+    color: #7196a5;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 /* Кнопка корзины */
 .btn-cart {
     width: 120px;
@@ -91,6 +98,11 @@ header {
 .goods-item img {
     margin-top: 25px;
 }
+
+.goods-item:hover {
+    border-bottom: 5px solid #afafaf;
+}
+
 /* Кнопка покупки */
 .btn-buy {
     width: 74px;
@@ -114,4 +126,14 @@ header {
     color: #ffffff;
     background: #afafaf;
     outline: none;
+}
+
+/* Корзина */
+.cart {
+    margin-top: 30px;
+    display: none;
+}
+
+.out {
+    font-weight: bold;
 }

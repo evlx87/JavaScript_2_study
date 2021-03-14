@@ -13,10 +13,29 @@
             <button class="btn-cart" type="button">Корзина</button>
         </header>
         <main>
-            <div class="total-amount"></div>
-            <div class="goods-list"></div>
+            <div class="catalog">
+                <h2>Каталог товаров</h2>
+                <div class="goods-list"></div>
+            </div>
+            <div class="cart">
+                <hr><br>
+                <h2>Корзина товаров</h2>
+                <div class="cart-content"></div>
+            </div>
         </main>
+        <!--beforestart-->
+        <p>
+            <!--afterstart-->
+            <span></span>
+            <!--beforeend-->
+        </p>
+        <!--afterend-->
         <script src="js/script.js"></script>
+        <script>
+            document.querySelector('.btn-cart').addEventListener("click", () => {
+                document.querySelector('.cart').style.display = "block";
+            })
+        </script>
     </div>
 </body>
 
