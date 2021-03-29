@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="css/fb.css">
+</head>
+
+<body>
+    <main>
+        <form action="#" id="myform">
+            <fieldset>
+                <legend>Обратная связь</legend>
+                <div>
+                    <label for="name">Имя:</label>
+                    <input type="text" name="name" id="name" placeholder="Ivan">
+                    <span class="error_name">!Вы ввели некорректные значения</span>
+                </div>
+                <div>
+                    <label for="tel">Телефон:</label>
+                    <input type="tel" name="tel" id="tel" placeholder="+7(000)000-0000">
+                    <span class="error_tel">!Вы ввели некорректные значения</span>
+                </div>
+                <div>
+                    <label for="email">e-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="mymail@mail.ru">
+                    <span class="error_email">!Вы ввели некорректные значения</span>
+                </div>
+                <div>
+                    <label for="text">Сообщение:</label>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                    <span class="error_text">!Вы ввели некорректные значения</span>
+                </div>
+                <button class="btn" onclick="return false">Отправить</button>
+            </fieldset>
+            <script src="js/fbscript.js"></script>
+        </form>
+    </main>
+
+</body>
+
+</html>
